@@ -141,9 +141,12 @@ a {
         background: url(../img/spiral.svg) no-repeat;
         background-size: contain;
         content: '';
-        height: 100%;
+        height: 650px;
+        left: 70%;
         position: absolute;
-        width: 100%;
+        top: 30%;
+        transform: translateX(-50%);
+        width: 851px;
         z-index: 0;
     }
     &-blocks {

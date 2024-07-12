@@ -34,6 +34,10 @@
         margin-top: -40px;
         padding-top: 120px;
         text-align: left;
+        &::before {
+            left: 82%;
+            top: 42%;
+        }
         &-blocks {
             display: grid;
             grid-template-areas: "text video";
@@ -250,6 +254,11 @@
         padding: 100px 0;
     }
     .welcome {
+        margin-top: -3%;
+        &::before {
+            left: 70%;
+            top: 30%;
+        }
         p {
             font-size: 24px;
         }
